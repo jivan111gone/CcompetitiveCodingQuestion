@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    string str = "myname id jivan and i wanna kill you";
+    int di = str.size();
+    cout << di<<endl;
+    char c0 = str[0];
+    char c1 = str[1];
+    char c2 = str[2];
+    char c3 = str[3];
+    cout << c0 << c1 << c2 << c3 << endl;
+    string str1="you are rahul ";
+    string str2 = str + str1;
+    cout<< str2;
+    return 0;
+}
